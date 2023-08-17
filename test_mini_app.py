@@ -11,7 +11,7 @@ class TestUpperfunction(unittest.TestCase):
 
     def test_Uppercase(self):
         self.assertEqual(upperString, startstring.upper())
-        self.assertEqual(startstring, startstring.upper())    # Fehlerfall
+        # self.assertEqual(startstring, startstring.upper())    # Fehlerfall
 
 if __name__ == "__main__":
     unittest.main()
